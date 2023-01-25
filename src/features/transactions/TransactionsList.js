@@ -14,7 +14,6 @@ const TransactionsList = () => {
         <td>{transaction.id}</td>
         <td>{transaction.transactionAmount}</td>
         <td>{transaction.transactionType}</td>
-        <td>{new Date().toLocaleString()}</td>
       </tr>
     );
   });
@@ -30,12 +29,11 @@ const TransactionsList = () => {
             <th>Transaction ID</th>
             <th>Transaction Amount</th>
             <th>Transaction Type</th>
-            <th>Transaction Time</th>
           </tr>
         </thead>
         <tbody>{renderedTransactionsRows}</tbody>
       </Table>
-      <div style={{ marginTop: '-310px' }}>
+      <div>
         <AddTransactionModal />
         <a href='/home'>Go back to home</a>
       </div>
