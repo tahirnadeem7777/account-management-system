@@ -1,0 +1,18 @@
+.home__page {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(245, 191, 109);
+    min-height: 100vh;
+}
+
+.home__page h1 {
+    font-weight: 800;
+    color: #213457;
+
+}
+
+.home__page p {
+    padding: 45px 200px;
+    color: #45090a;
+    text-align: justify;
+}

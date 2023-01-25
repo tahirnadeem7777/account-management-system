@@ -1,0 +1,9 @@
+.dashboard {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 800;
+    padding: 35px;
+    background-color: rgb(240, 194, 125);
+    min-height: 100vh;
+    color: rgb(5, 85, 5);
+}
